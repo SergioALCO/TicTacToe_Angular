@@ -1,0 +1,3 @@
+<p>
+  Turn of {{ (_state$ | async).turn == 'PLAYERX' ?  (_stateService.isWinner) === true ? "There is a winner, Player 2 - 0s" : "Player 1 - Xs" : (_stateService.isWinner) == true ? "There is a winner, Player 1 - Xs" : "Player 2 - 0s" }}
+</p>
